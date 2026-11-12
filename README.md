@@ -26,9 +26,3 @@ Roguelike de futebol com partidas em estilo Auto Chess.
 - `scripts/Match.gd`, `PitchView.gd`, `PlayerToken.gd` - cena de partida
 - `scenes/*.tscn` - MainMenu, CaptainCreation, Draft, Match, Reward, EndScreen, PlayerCard, PlayerToken
 
-## Decisões / simplificações
-- "Apenas 4": 4 jogadores por time (1 goleiro + 3 de linha) e 4 ciclos. Capitão + 3 contratações.
-- Dons sem números na planilha têm valores provisórios (marcado "inventado" em SkillDB).
-- Jogadas e Jogadas Ensaiadas estavam vazias na planilha; criei 6 jogadas e 3 cobranças de falta de exemplo.
-- Não implementados: reservas, treinador/equipe de apoio/patrocinador, loja inicial, Dons restantes (Distraído, Pé inchado, Perna-aberta, Garganta Seca, Articulador, Chute de craque).
-- Não testei no editor Godot (sem Godot no ambiente): se aparecer algum erro de script, me avise.
